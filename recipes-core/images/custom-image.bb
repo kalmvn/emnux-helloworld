@@ -9,6 +9,7 @@ LICENSE = "MIT"
 inherit core-image
 
 IMAGE_INSTALL += "helloworld"
+IMAGE_INSTALL += "testi2c"
 
 # IMAGE_OVERHEAD_FACTOR ?= "1.0"
 # IMAGE_ROOTFS_SIZE ?= "204800"
