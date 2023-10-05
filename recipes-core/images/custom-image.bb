@@ -1,4 +1,4 @@
-SUMMARY = "Test image"
+SUMMARY = "Custom image"
 
 IMAGE_INSTALL = "packagegroup-core-boot ${CORE_IMAGE_EXTRA_INSTALL}"
 
@@ -10,6 +10,7 @@ inherit core-image
 
 IMAGE_INSTALL += "helloworld"
 IMAGE_INSTALL += "testi2c"
+IMAGE_INSTALL += "ek79202d-mod"
 
 # IMAGE_OVERHEAD_FACTOR ?= "1.0"
 # IMAGE_ROOTFS_SIZE ?= "204800"

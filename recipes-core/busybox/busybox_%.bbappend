@@ -1,2 +1,2 @@
 FILESEXTRAPATHS:prepend := "${THISDIR}/${PN}:"
-SRC_URI += "file://i2cdetect.cfg"
+SRC_URI += "file://busybox.cfg"
